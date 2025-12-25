@@ -269,7 +269,7 @@ const presets = {
         blur: 0,
         hueRotation: 0,
     },
-    looking_good_filter: {
+    looking_good_filte: {
         brightness: 90,
         contrast: 69,
         saturation: 175,
@@ -279,7 +279,7 @@ const presets = {
         invert: 0,
         blur: 0,
         hueRotation: 338,
-    }
+    },
     vintage: {
         brightness: 110,
         contrast: 85,
@@ -405,3 +405,4 @@ Object.keys(presets).forEach(presetName => {
 
 
 });
+
