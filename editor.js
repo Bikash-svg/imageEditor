@@ -269,6 +269,17 @@ const presets = {
         blur: 0,
         hueRotation: 0,
     },
+    looking_good_filter: {
+        brightness: 90,
+        contrast: 69,
+        saturation: 175,
+        grayscale: 0,
+        sepia: 26,
+        opacity: 100,
+        invert: 0,
+        blur: 0,
+        hueRotation: 338,
+    }
     vintage: {
         brightness: 110,
         contrast: 85,
@@ -369,17 +380,6 @@ const presets = {
         hueRotation: 10,
     },
 
-    developments_favourite: {
-        brightness: 90,
-        contrast: 69,
-        saturation: 175,
-        grayscale: 0,
-        sepia: 26,
-        opacity: 100,
-        invert: 0,
-        blur: 0,
-        hueRotation: 338,
-    }
 }
 
 const presetsContainer = document.querySelector('.presets');
@@ -402,5 +402,6 @@ Object.keys(presets).forEach(presetName => {
         filtersContainer.innerHTML = '';
         createFilters();
     });
+
 
 });
